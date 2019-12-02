@@ -1,0 +1,21 @@
+# suite config
+suites:
+    api:
+        actor: ApiTester
+        path: .
+        modules:
+            enabled:
+                - REST:
+                    url: https://url/api/
+                    depends: PhpBrowser
+                - \Helper\Api
+
+paths:
+    tests: tests
+    output: output
+    data: tests/_data
+    support: tests/_support
+
+settings:
+    shuffle: false
+    lint: true

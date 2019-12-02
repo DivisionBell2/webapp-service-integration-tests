@@ -1,0 +1,17 @@
+{
+  "require": {
+    "butik/libraries-service-integration-tests-core": "@dev"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://bitbucket.butik.ru/scm/qa/libraries-service-integration-tests-core.git"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "": "tests/",
+      "t\\": "t/"
+    }
+  }
+}
