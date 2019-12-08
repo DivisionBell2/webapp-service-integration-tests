@@ -7,10 +7,10 @@ Autotests in this framework are using API-testing for branded clothing internet 
 2. Codeception testing framework
 3. Gazzle client
 
-This framework is only for skills demonstration, but for work in needs:
+This framework is only for skills demonstration. Tests executing is possible only with installing core framework. The core-framework is missing here, because of it was not develeped by your humble servant -)
  
 ## local install
-1. Clone this project on local machine
+1. Install core framework
 2. Execute `composer install`
  
 ## how to execute this tests (linux and macos)
