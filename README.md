@@ -2,7 +2,7 @@ Integration Service Tests for Kernel service
 ========================================================
 
 ##description
-Autotests in this framework are using API-testing gor branded clothing internet shop. Framework uses:
+Autotests in this framework are using API-testing for branded clothing internet shop. Framework uses:
 1. PHP 7.3 with composer
 2. Codeception testing framework
 3. Gazzle client
